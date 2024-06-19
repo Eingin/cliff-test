@@ -15,7 +15,6 @@
     "version": "changeset version"
   },
   "dependencies": {
-    "@changesets/cli": "^2.27.5",
     "@libsql/client": "^0.6.0",
     "@t3-oss/env-nextjs": "^0.10.1",
     "@tanstack/react-query": "^5.39.0",
@@ -32,6 +31,8 @@
     "zod": "^3.23.3"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.5",
     "@types/eslint": "^8.56.2",
     "@types/node": "^20.11.20",
     "@types/react": "^18.2.57",
